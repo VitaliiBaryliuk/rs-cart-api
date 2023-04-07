@@ -9,7 +9,12 @@ export class UsersService {
   private readonly users: Record<string, User>;
 
   constructor() {
-    this.users = {}
+    this.users = {
+      VitaliiBaryliuk1: {
+        name: 'VitaliiBaryliuk1',
+        id: 'f13be0a2-ea9a-407f-a052-20764f9ce444'
+      },
+    }
   }
 
   findOne(userId: string): User {
